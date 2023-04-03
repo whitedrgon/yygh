@@ -38,6 +38,7 @@ public class DictController {
         dictService.upload(file);
         System.out.println("我只master主分支" );
         System.out.println("我是hot-fix分支");
+        System.out.println("SSH push"  );
         return R.ok();
     }
     @ApiOperation(value = "excel下载")
