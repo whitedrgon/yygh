@@ -36,6 +36,7 @@ public class DictController {
     @PostMapping("/upload")
     public R upload(MultipartFile file) throws IOException {
         dictService.upload(file);
+        System.out.println("我是hot-fix分支");
         return R.ok();
     }
     @ApiOperation(value = "excel下载")
