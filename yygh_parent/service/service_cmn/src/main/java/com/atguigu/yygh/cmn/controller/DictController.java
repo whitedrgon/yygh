@@ -39,6 +39,7 @@ public class DictController {
         System.out.println("我只master主分支" );
         System.out.println("我是hot-fix分支");
         System.out.println("SSH push"  );
+        System.out.println("pull test"  );
         return R.ok();
     }
     @ApiOperation(value = "excel下载")
